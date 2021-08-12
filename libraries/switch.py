@@ -16,7 +16,6 @@ def switch_option(option):
         mycol.insert_one(dictionary)
         if mycol.find_one({"_id":_id}):
             print("\nCE ingresado con éxito")
-            print(mycol.find({"_id":_id}).count()>0)
         input()
         
     # Ver todos los CE
