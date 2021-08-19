@@ -1,8 +1,8 @@
 from enum import unique
 from re import T
 import connection as con
-db = con.client["CE_mng"]
-mycol = db["Directory"]
+db = con.client["Evaluacion01"]
+mycol = db["CE"]
 
 def switch_option(option):
     # Insertar un CE
