@@ -1,5 +1,3 @@
-from enum import unique
-from re import T
 import connection as con
 db = con.client["Evaluacion01"]
 mycol = db["CE"]
